@@ -7,10 +7,10 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-slate-800">
       {/* Container */}
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 px-4">
+        <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4">
           <div>
             <img
-              className="rounded max-w-[350px] mx-auto mt-4"
+              className="max-w-[350px] p-4 mx-auto mt-4 rounded"
               src={ProfilePic}
               alt="Profile picture"
             />

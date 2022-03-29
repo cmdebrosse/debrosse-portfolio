@@ -1,6 +1,5 @@
 import React from "react";
 
-import ProjectsBackground from "../assets/projects-background.jpeg";
 import NoteTaker from "../assets/express-note-taker.png";
 import CodingQuiz from "../assets/coding-quiz.png";
 import PasswordGenerator from "../assets/password-generator.png";
