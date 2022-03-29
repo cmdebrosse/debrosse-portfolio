@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/prof-react-port/static/css/main.eb48fb44.css",
+    "main.js": "/prof-react-port/static/js/main.84529d76.js",
+    "static/media/team-html-generator.png": "/prof-react-port/static/media/team-html-generator.64cd28c13d7713cd92bc.png",
+    "static/media/work-day-scheduler.png": "/prof-react-port/static/media/work-day-scheduler.309d53911f8f1e6a476d.png",
+    "static/media/password-generator.png": "/prof-react-port/static/media/password-generator.6de24be22abfbf47a075.png",
+    "static/media/coding-quiz.png": "/prof-react-port/static/media/coding-quiz.dd543ca539f1024973af.png",
+    "static/media/profilepic.jpg": "/prof-react-port/static/media/profilepic.eed1e4ba196394e0b998.jpg",
+    "static/media/express-note-taker.png": "/prof-react-port/static/media/express-note-taker.2ccdf0a2783ffc571fb7.png",
+    "static/media/offline-budgeter.png": "/prof-react-port/static/media/offline-budgeter.daac047829efae8d4a0d.png",
+    "static/media/react.png": "/prof-react-port/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/prof-react-port/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/prof-react-port/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/github.png": "/prof-react-port/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/prof-react-port/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/prof-react-port/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/prof-react-port/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/prof-react-port/index.html",
+    "main.eb48fb44.css.map": "/prof-react-port/static/css/main.eb48fb44.css.map",
+    "main.84529d76.js.map": "/prof-react-port/static/js/main.84529d76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb48fb44.css",
+    "static/js/main.84529d76.js"
+  ]
+}
