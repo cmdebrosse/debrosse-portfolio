@@ -11,7 +11,7 @@ const Home = () => {
         <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4">
           <div>
             <img
-              className="max-w-[350px] p-4 mx-auto mt-4 rounded"
+              className="max-w-[350px] p-4 mx-auto my-auto rounded"
               src={ProfilePic}
               alt="Profile picture"
             />

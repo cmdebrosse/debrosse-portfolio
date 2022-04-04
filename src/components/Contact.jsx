@@ -16,8 +16,8 @@ const Contact = () => {
             Contact
           </p>
           <p className="py-4">
-            // Submit the form below or send me an email at
-            cmdebrosse@outlook.com
+            // Submit the form below or send me an email
+            <a href="mailto:cmdebrosse@outlook.com"> cmdebrosse@outlook.com</a>
           </p>
         </div>
         <input
@@ -35,7 +35,7 @@ const Contact = () => {
         <textarea
           className="bg-slate-500 p-2"
           name="message"
-          rows="10"
+          rows="6"
           placeholder="Enter message here..."
         ></textarea>
         <button className="text-white border-2 hover:bg-blue-500 hover:border-blue-500 duration-300 rounded px-4 py-3 my-8 mx-auto flex items-center">
