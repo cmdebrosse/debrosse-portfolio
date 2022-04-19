@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from "../assets/profilepic.jpg";
+import ProfilePic from "../assets/profilePic.jpg";
 import { HiArrowNarrowRight } from "react-icons/hi";
 // import { Link } from "react-scroll";
 

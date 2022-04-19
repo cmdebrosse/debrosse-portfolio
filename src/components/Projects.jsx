@@ -2,7 +2,7 @@ import React from "react";
 
 import NoteTaker from "../assets/express-note-taker.png";
 import CodingQuiz from "../assets/coding-quiz.png";
-import PasswordGenerator from "../assets/password-generator.png";
+// import PasswordGenerator from "../assets/password-generator.png";
 import OfflineBudgeter from "../assets/offline-budgeter.png";
 import TeamHTMLGenerator from "../assets/team-html-generator.png";
 import WorkdayScheduler from "../assets/work-day-scheduler.png";
@@ -17,11 +17,11 @@ const Projects = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         {/* Heading */}
-        <div className="mt-[90px] pb-8">
+        <div className="mt-[60px] pb-3">
           <p className="text-4xl font-bold inline border-b-4 border-blue-500">
             Projects
           </p>
-          <p className="py-4">// Check out some of my recent projects</p>
+          <p className="py-2">// Check out some of my recent projects</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -126,12 +126,12 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Password Generator Card */}
+          {/* Password Generator Card
           <div
             style={{ backgroundImage: `url(${PasswordGenerator})` }}
             className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover effect */}
+            
             <div className="opacity-0 group-hover:opacity-100 duration-500">
               <span className="text-2xl font-bold text-white tracking-wider">
                 JavaScript Application
@@ -149,7 +149,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Team Generator Card */}
           <div
