@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/debrosse-portfolio/static/css/main.e7b39db5.css",
-    "main.js": "/debrosse-portfolio/static/js/main.48aae94e.js",
+    "main.js": "/debrosse-portfolio/static/js/main.1e70c36b.js",
     "static/media/curious-traveler.png": "/debrosse-portfolio/static/media/curious-traveler.701274ec7d8343e8ef9b.png",
     "static/media/team-html-generator.png": "/debrosse-portfolio/static/media/team-html-generator.64cd28c13d7713cd92bc.png",
     "static/media/work-day-scheduler.png": "/debrosse-portfolio/static/media/work-day-scheduler.309d53911f8f1e6a476d.png",
@@ -18,10 +18,10 @@
     "static/media/javascript.png": "/debrosse-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/debrosse-portfolio/index.html",
     "main.e7b39db5.css.map": "/debrosse-portfolio/static/css/main.e7b39db5.css.map",
-    "main.48aae94e.js.map": "/debrosse-portfolio/static/js/main.48aae94e.js.map"
+    "main.1e70c36b.js.map": "/debrosse-portfolio/static/js/main.1e70c36b.js.map"
   },
   "entrypoints": [
     "static/css/main.e7b39db5.css",
-    "static/js/main.48aae94e.js"
+    "static/js/main.1e70c36b.js"
   ]
 }
