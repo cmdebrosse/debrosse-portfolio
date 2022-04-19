@@ -6,6 +6,7 @@ import PasswordGenerator from "../assets/password-generator.png";
 import OfflineBudgeter from "../assets/offline-budgeter.png";
 import TeamHTMLGenerator from "../assets/team-html-generator.png";
 import WorkdayScheduler from "../assets/work-day-scheduler.png";
+import CuriousTraveler from "../assets/curious-traveler.png";
 
 const Projects = () => {
   return (
@@ -16,7 +17,7 @@ const Projects = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         {/* Heading */}
-        <div className="pb-8">
+        <div className="mt-[90px] pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-blue-500">
             Projects
           </p>
@@ -24,6 +25,31 @@ const Projects = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          {/* Curious Traveler Card */}
+          <div
+            style={{ backgroundImage: `url(${CuriousTraveler})` }}
+            className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover effect */}
+            <div className="opacity-0 group-hover:opacity-100 duration-500">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Full-Stack Application
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://curious-traveler.herokuapp.com/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg hover:bg-indigo-300 duration-300">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/cmdebrosse/curious-traveler">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-900 font-bold text-lg hover:bg-blue-300">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* Offline Budget Card */}
           <div
             style={{ backgroundImage: `url(${OfflineBudgeter})` }}

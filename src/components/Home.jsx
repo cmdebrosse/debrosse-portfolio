@@ -1,7 +1,7 @@
 import React from "react";
 import ProfilePic from "../assets/profilepic.jpg";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -9,9 +9,9 @@ const Home = () => {
       {/* Container */}
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4">
-          <div>
+          <div className="mt-[60px]">
             <img
-              className="max-w-[350px] p-4 mx-auto my-auto rounded"
+              className="max-w-[350px] p-4 mx-auto rounded"
               src={ProfilePic}
               alt="Profile picture"
             />
@@ -32,14 +32,14 @@ const Home = () => {
               to offer!
             </p>
             <div>
-              <Link to="projects" smooth={true} duration={500}>
+              <a href="/projects">
                 <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-400 hover:border-blue-400">
                   View My Work
                   <span className="group-hover:rotate-90 duration-300">
                     <HiArrowNarrowRight className="ml-4" />
                   </span>
                 </button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
