@@ -5,7 +5,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-slate-800">
+    <div name="home" className="w-full h-full md:h-screen bg-slate-800">
       {/* Container */}
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4">

@@ -15,19 +15,41 @@ const Navbar = () => {
       {/* Menu */}
       <ul className="hidden md:flex">
         <li>
-          <a href="/">Home</a>
+          <a className="hover:bg-blue-500 duration-300 p-2 rounded" href="/">
+            Home
+          </a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a
+            className="hover:bg-blue-500 duration-300 p-2 rounded"
+            href="/about"
+          >
+            About
+          </a>
         </li>
         <li>
-          <a href="/skills">Skills</a>
+          <a
+            className="hover:bg-blue-500 duration-300 p-2 rounded"
+            href="/skills"
+          >
+            Skills
+          </a>
         </li>
         <li>
-          <a href="/projects">Projects</a>
+          <a
+            className="hover:bg-blue-500 duration-300 p-2 rounded"
+            href="/projects"
+          >
+            Projects
+          </a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a
+            className="hover:bg-blue-500 duration-300 p-2 rounded"
+            href="/contact"
+          >
+            Contact
+          </a>
         </li>
       </ul>
 
@@ -44,27 +66,27 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-slate-600 flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="m-2 py-6 text-4xl hover:bg-blue-500 duration-300 rounded">
           <a href="/">Home</a>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="m-2 py-6 text-4xl hover:bg-blue-500 duration-300 rounded">
           <a href="/about">About</a>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="m-2 py-6 text-4xl hover:bg-blue-500 duration-300 rounded">
           <a href="/skills">Skills</a>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="m-2 py-6 text-4xl hover:bg-blue-500 duration-300 rounded">
           <a href="/projects">Projects</a>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="m-2 py-6 text-4xl hover:bg-blue-500 duration-300 rounded">
           <a href="/contact">Contact</a>
         </li>
       </ul>
 
-      {/* Social Icons */}
+      {/* Sidebar Icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600">
+          <li className="w-[160px] h-[60px] bg-gray-600 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-blue-500">
             <a
               className="flex justify-between items-center w-full text-gray-100"
               href="https://github.com/cmdebrosse"
@@ -72,7 +94,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600 hover:bg-blue-500">
             <a
               className="flex justify-between items-center w-full text-gray-100"
               href="https://www.linkedin.com/in/charles-debrosse/"
@@ -80,7 +102,7 @@ const Navbar = () => {
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600 hover:bg-blue-500">
             <a
               className="flex justify-between items-center w-full text-gray-100"
               href="mailto:cmdebrosse@outlook.com"
@@ -88,10 +110,10 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600 hover:bg-blue-500">
             <a
               className="flex justify-between items-center w-full text-gray-100"
-              href="/"
+              href="/resume"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
