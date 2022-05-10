@@ -21,36 +21,40 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="shadow-md shadow-black hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={Github} alt="Github icon" />
+          <div className="bg-slate-600 rounded-xl shadow-md shadow-black hover:scale-110 duration-300">
+            <img className="py-3 w-20 mx-auto" src={Github} alt="Github icon" />
             <p className="my-4">GitHub</p>
           </div>
-          <div className="shadow-md shadow-black hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
+          <div className="bg-slate-600 rounded-xl shadow-md shadow-black hover:scale-110 duration-300">
+            <img className="py-3 w-20 mx-auto" src={HTML} alt="HTML icon" />
             <p className="my-4">HTML</p>
           </div>
-          <div className="shadow-md shadow-black hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={CSS} alt="CSS icon" />
+          <div className="bg-slate-600 rounded-xl shadow-md shadow-black hover:scale-110 duration-300">
+            <img className="py-3 w-20 mx-auto" src={CSS} alt="CSS icon" />
             <p className="my-4">CSS</p>
           </div>
-          <div className="shadow-md shadow-black hover:scale-110 duration-300">
+          <div className="bg-slate-600 rounded-xl shadow-md shadow-black hover:scale-110 duration-300">
             <img
-              className="w-20 mx-auto"
+              className="py-3 w-20 mx-auto"
               src={JavaScript}
               alt="JavaScript icon"
             />
             <p className="my-4">JavaScript</p>
           </div>
-          <div className="shadow-md shadow-black hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={Mongo} alt="MongoDB icon" />
+          <div className="bg-slate-600 rounded-xl shadow-md shadow-black hover:scale-110 duration-300">
+            <img className="py-3 w-20 mx-auto" src={Mongo} alt="MongoDB icon" />
             <p className="my-4">MongoDB</p>
           </div>
-          <div className="shadow-md shadow-black hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={ReactIcon} alt="React icon" />
+          <div className="bg-slate-600 rounded-xl shadow-md shadow-black hover:scale-110 duration-300">
+            <img
+              className="py-3 w-20 mx-auto"
+              src={ReactIcon}
+              alt="React icon"
+            />
             <p className="my-4">React</p>
           </div>
-          <div className="shadow-md shadow-black hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={Node} alt="Node icon" />
+          <div className="bg-slate-600 rounded-xl shadow-md shadow-black hover:scale-110 duration-300">
+            <img className="py-3 w-20 mx-auto" src={Node} alt="Node icon" />
             <p className="my-4">Node</p>
           </div>
         </div>
