@@ -5,13 +5,13 @@ const Resume = () => {
   return (
     <motion.div
       name="resume"
-      className="bg-slate-800 text-slate-300 h-screen"
+      className="bg-slate-800 text-slate-300 h-full md:h-screen"
       initial={{ x: 300, opacity: 0.5 }}
       animate={{ x: 0, opacity: 1 }}
       exit={{ x: -300, opacity: 0.5 }}
     >
       <div className="flex flex-col justify-center items-center">
-        <div className="p-4 mt-12 grid justify-items-start content-center">
+        <div className="p-4 mt-[70px] grid justify-items-start content-center">
           {/* Profile */}
           <div className="max-w-xl ">
             <h2 className="text-4xl font-bold inline border-b-4 border-blue-500">
@@ -88,7 +88,7 @@ const Resume = () => {
             </div>
           </div>
         </div>
-        <footer className="bg-slate-600 py-2 px-11">
+        <footer className="bg-slate-600 mb-2 py-2 px-[90px]">
           <div className="grid justify-items-center">
             <p>Charles DeBrosse</p>
             <p>cmdebrosse@outlook.com</p>
