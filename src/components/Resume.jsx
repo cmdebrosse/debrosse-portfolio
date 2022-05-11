@@ -1,19 +1,19 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Resume = () => {
   return (
-    <div
+    <motion.div
       name="resume"
-      className="w-full h-full md:h-screen bg-slate-800 text-slate-300"
+      className="bg-slate-800 text-slate-300 h-screen"
+      initial={{ x: 300, opacity: 0.5 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -300, opacity: 0.5 }}
     >
-      <div className="flex flex-col justify-center items-center w-full h-screen">
-        <div className="p-3 mb-4 grid justify-items-start content-center">
-          <header className="m-4">
-            <h1 className="text-4xl sm:text-7xl font-bold">Charles DeBrosse</h1>
-          </header>
-
+      <div className="flex flex-col justify-center items-center">
+        <div className="p-4 mt-12 grid justify-items-start content-center">
           {/* Profile */}
-          <div className="my-4 max-w-xl ">
+          <div className="max-w-xl ">
             <h2 className="text-4xl font-bold inline border-b-4 border-blue-500">
               Profile
             </h2>
@@ -88,7 +88,7 @@ const Resume = () => {
             </div>
           </div>
         </div>
-        <footer className="bg-slate-600 w-full p-2">
+        <footer className="bg-slate-600 py-2 px-11">
           <div className="grid justify-items-center">
             <p>Charles DeBrosse</p>
             <p>cmdebrosse@outlook.com</p>
@@ -96,7 +96,7 @@ const Resume = () => {
           </div>
         </footer>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

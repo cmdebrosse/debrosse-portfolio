@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 // import { Link } from "react-scroll";
 
@@ -10,7 +11,12 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-slate-600 text-gray-100">
+    <motion.div
+      className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-slate-600 text-gray-100"
+      initial={{ x: 300, opacity: 0.5 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -300, opacity: 0.5 }}
+    >
       <a className="border-b-3 border-blue-500" href="/">
         <h1>Charles DeBrosse</h1>
       </a>
@@ -123,7 +129,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

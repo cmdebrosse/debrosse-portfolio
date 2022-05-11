@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import Github from "../assets/github.png";
 import HTML from "../assets/html.png";
@@ -10,17 +11,23 @@ import ReactIcon from "../assets/react.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-slate-800 text-slate-300">
+    <motion.div
+      name="skills"
+      className="w-full h-full md:h-screen bg-slate-800 text-slate-300"
+      initial={{ x: 300, opacity: 0.5 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -300, opacity: 0.5 }}
+    >
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="mt-[90px]">
+      <div className="max-w-[1000px] mx-auto p-2 flex flex-col justify-center w-full h-full">
+        <div className="mt-[60px]">
           <p className="text-4xl font-bold inline border-b-4 border-blue-500">
             Skills
           </p>
           <p className="py-4">// These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4">
           <div className="bg-slate-600 rounded-xl shadow-md shadow-black hover:scale-110 duration-300">
             <img className="py-3 w-20 mx-auto" src={Github} alt="Github icon" />
             <p className="my-4">GitHub</p>
@@ -59,7 +66,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,17 +1,24 @@
 import React from "react";
 import ProfilePic from "../assets/profilePic.jpg";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { motion } from "framer-motion";
 // import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-full md:h-screen bg-slate-800">
+    <motion.div
+      name="home"
+      className="w-full h-screen bg-slate-800"
+      initial={{ x: 300, opacity: 0.5 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -300, opacity: 0.5 }}
+    >
       {/* Container */}
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-8 px-4">
-          <div className="mt-[60px]">
+        <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-4 px-4">
+          <div className="mt-[10px]">
             <img
-              className="max-w-[350px] p-4 mx-auto rounded"
+              className="max-w-[350px] p-2 mx-auto mt-11 md:mt-0"
               src={ProfilePic}
               alt="Profile picture"
             />
@@ -44,7 +51,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 import NoteTaker from "../assets/express-note-taker.png";
 import CodingQuiz from "../assets/coding-quiz.png";
@@ -10,9 +11,12 @@ import CuriousTraveler from "../assets/curious-traveler.png";
 
 const Projects = () => {
   return (
-    <div
+    <motion.div
       name="projects"
       className="w-full md:h-screen bg-slate-800 text-slate-300"
+      initial={{ x: 300, opacity: 0.5 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -300, opacity: 0.5 }}
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -203,7 +207,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

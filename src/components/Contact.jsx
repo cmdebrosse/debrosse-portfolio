@@ -1,10 +1,14 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div
+    <motion.div
       name="contact"
       className="w-full h-screen bg-slate-800 text-slate-100 flex justify-center items-center p-4"
+      initial={{ x: 300, opacity: 0.5 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: -300, opacity: 0.5 }}
     >
       <form
         method="POST"
@@ -42,7 +46,7 @@ const Contact = () => {
           Let's talk!
         </button>
       </form>
-    </div>
+    </motion.div>
   );
 };
 
